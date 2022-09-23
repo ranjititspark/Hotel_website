@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    color: black !important;
+    margin: 10px;
+}
+
+.nav-link:hover {
+    color: rgb(243, 141, 17) !important;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(243, 141, 17);
+}
+
+/* hero section */
+.carousel-item {
+    max-height: 500px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat scroll center scroll;
+
+
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.carousel-caption {
+    bottom: 180px;
+}
+
+.carousel-caption h5 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    top: 2rem;
+}
+
+.slider-btn .btn {
+
+background-color:aliceblue;
+color:black;
+font-weight: 700;
+    border-radius: 0;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-right: 15px;
+    border: 0.1px solid black;
+    border-radius: 10px;
+
+}
+
+.slider-btn .btn:hover {
+    background-color: rgb(243, 141, 17);
+    transform: scale(1.2, 1.2);
+    transition: 0.5s ease;
+    font-weight: bold;
+}
+
+
+
+
+
+.pr-primary {
+    color: rgb(243, 141, 17);
+    word-wrap: break-word;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(243, 141, 17);
+}
+
+.main-btn {
+    border-radius: 20px;
+    margin: 10px;
+    /* background-color:aliceblue; */
+}
+
+.main-btn:hover {
+    background-color: rgb(243, 141, 17);
+    transition: 0.5s ease;
+    transform: scale(1.2, 1.2);
+}
+
+/* Room Section Start */
+.mcontainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.mcontainer img {}
+
+.moverlay {
+    height: 0;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    /* width: 100%; */
+    transition: 0.5s ease;
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+.mcontainer:hover .moverlay {
+    height: 100%;
+}
+
+.mcontainer .text {
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+    color: white;
+    /* word-break: break-all; */
+
+}
+
+/* our staff section start */
+.scontainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.scontainer .soverlay {
+
+    left: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    /* width: 100%; */
+    color: white;
+    text-align: center;
+    background-color: rgb(243, 141, 17);
+    overflow: hidden;
+
+}
+
+.scontainer .stext {
+    background-color: #111010;
+    color: white;
+    /* position: absolute; */
+    width: 100%;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.scontainer a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    text-align: center;
+    left: 0;
+}
+
+.scontainer:hover .stext {
+    position: relative;
+}
+
+.scontainer:hover .soverlay {
+    bottom: 50px;
+}
+
+.Economic-data {
+    border-bottom: 0.1px solid rgb(218, 208, 208);
+    padding-bottom: 30px;
+}
+
+/* Pricing section start */
+.ecommarce-text {
+    color: black
+}
+
+.ecommarce-text:hover {
+    background-color: rgb(243, 141, 17);
+    color: white;
+}
+
+
+/* Blog section start */
+.blog-content{
+    margin-top: -10%;
+    margin-left: 30%;
+    
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+visibility: hidden;
+}
